@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41386BC42312FF8400B910D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41386BC32312FF8400B910D6 /* Constants.swift */; };
+		4147481D2312E7E50072A0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147481C2312E7E50072A0A6 /* AppDelegate.swift */; };
+		4147481F2312E7E60072A0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4147481E2312E7E60072A0A6 /* Assets.xcassets */; };
+		414748222312E7E60072A0A6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414748202312E7E60072A0A6 /* MainMenu.xib */; };
+		4147482B2312ECBB0072A0A6 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147482A2312ECBB0072A0A6 /* MainWindowController.swift */; };
+		4147482D2312F8AC0072A0A6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147482C2312F8AC0072A0A6 /* Networking.swift */; };
+		848C3642C766994DEB2878D1 /* Pods_Foam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1944DB4102254A89C6D19FD3 /* Pods_Foam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		162B7E651FD9CE759839BA31 /* Pods-Foam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foam/Pods-Foam.debug.xcconfig"; sourceTree = "<group>"; };
+		1944DB4102254A89C6D19FD3 /* Pods_Foam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41386BC32312FF8400B910D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		414748192312E7E50072A0A6 /* Foam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4147481C2312E7E50072A0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4147481E2312E7E60072A0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		414748212312E7E60072A0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		414748232312E7E60072A0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414748242312E7E60072A0A6 /* Foam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foam.entitlements; sourceTree = "<group>"; };
+		4147482A2312ECBB0072A0A6 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		4147482C2312F8AC0072A0A6 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		5D021F0D2CB2CB79FE7AC5C4 /* Pods-Foam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foam/Pods-Foam.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414748162312E7E50072A0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848C3642C766994DEB2878D1 /* Pods_Foam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		414748102312E7E50072A0A6 = {
+			isa = PBXGroup;
+			children = (
+				4147481B2312E7E50072A0A6 /* Foam */,
+				4147481A2312E7E50072A0A6 /* Products */,
+				A44B0A2ADCE3DEFE3509DCF2 /* Pods */,
+				6FB24B6B83ADA596A51DD9A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4147481A2312E7E50072A0A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				414748192312E7E50072A0A6 /* Foam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4147481B2312E7E50072A0A6 /* Foam */ = {
+			isa = PBXGroup;
+			children = (
+				4147481C2312E7E50072A0A6 /* AppDelegate.swift */,
+				41386BC32312FF8400B910D6 /* Constants.swift */,
+				4147482A2312ECBB0072A0A6 /* MainWindowController.swift */,
+				4147482C2312F8AC0072A0A6 /* Networking.swift */,
+				4147481E2312E7E60072A0A6 /* Assets.xcassets */,
+				414748202312E7E60072A0A6 /* MainMenu.xib */,
+				414748232312E7E60072A0A6 /* Info.plist */,
+				414748242312E7E60072A0A6 /* Foam.entitlements */,
+			);
+			path = Foam;
+			sourceTree = "<group>";
+		};
+		6FB24B6B83ADA596A51DD9A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1944DB4102254A89C6D19FD3 /* Pods_Foam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A44B0A2ADCE3DEFE3509DCF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				162B7E651FD9CE759839BA31 /* Pods-Foam.debug.xcconfig */,
+				5D021F0D2CB2CB79FE7AC5C4 /* Pods-Foam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414748182312E7E50072A0A6 /* Foam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414748272312E7E60072A0A6 /* Build configuration list for PBXNativeTarget "Foam" */;
+			buildPhases = (
+				BCFFE543FEB76BDA970DA673 /* [CP] Check Pods Manifest.lock */,
+				414748152312E7E50072A0A6 /* Sources */,
+				414748162312E7E50072A0A6 /* Frameworks */,
+				414748172312E7E50072A0A6 /* Resources */,
+				17EA10E6425C0E39CB113277 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foam;
+			productName = Foam;
+			productReference = 414748192312E7E50072A0A6 /* Foam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		414748112312E7E50072A0A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "alimahouk";
+				TargetAttributes = {
+					414748182312E7E50072A0A6 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 414748142312E7E50072A0A6 /* Build configuration list for PBXProject "Foam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 414748102312E7E50072A0A6;
+			productRefGroup = 4147481A2312E7E50072A0A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414748182312E7E50072A0A6 /* Foam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414748172312E7E50072A0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4147481F2312E7E60072A0A6 /* Assets.xcassets in Resources */,
+				414748222312E7E60072A0A6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EA10E6425C0E39CB113277 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foam/Pods-Foam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foam/Pods-Foam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foam/Pods-Foam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCFFE543FEB76BDA970DA673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414748152312E7E50072A0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4147482D2312F8AC0072A0A6 /* Networking.swift in Sources */,
+				4147482B2312ECBB0072A0A6 /* MainWindowController.swift in Sources */,
+				4147481D2312E7E50072A0A6 /* AppDelegate.swift in Sources */,
+				41386BC42312FF8400B910D6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		414748202312E7E60072A0A6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414748212312E7E60072A0A6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		414748252312E7E60072A0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		414748262312E7E60072A0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		414748282312E7E60072A0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162B7E651FD9CE759839BA31 /* Pods-Foam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SA6MPMP77M;
+				INFOPLIST_FILE = Foam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mahouk.Foam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		414748292312E7E60072A0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D021F0D2CB2CB79FE7AC5C4 /* Pods-Foam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SA6MPMP77M;
+				INFOPLIST_FILE = Foam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mahouk.Foam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414748142312E7E50072A0A6 /* Build configuration list for PBXProject "Foam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414748252312E7E60072A0A6 /* Debug */,
+				414748262312E7E60072A0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414748272312E7E60072A0A6 /* Build configuration list for PBXNativeTarget "Foam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414748282312E7E60072A0A6 /* Debug */,
+				414748292312E7E60072A0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 414748112312E7E50072A0A6 /* Project object */;
+}

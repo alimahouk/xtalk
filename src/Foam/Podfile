@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :macos, '10.15'
+use_frameworks!
+
+target 'Foam' do
+  pod 'CocoaAsyncSocket'
+end
