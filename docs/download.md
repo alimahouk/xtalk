@@ -8,7 +8,7 @@ xTalk is written in Python and has been successfully tested on Windows, macOS, a
 
 ### Prerequisites
 
-xTalk has a few dependencies that you need to install on your system before you can get it to run. The Messenger requires [Python 3](https://www.python.org/download/releases/3.0/), the [cryptography Python package](https://cryptography.io/en/latest/), and [PyNomicle](https://github.com/noraco/xp002/releases). Ideally, you would want to be running a full Nomicle installation to make the most of xTalk.
+xTalk has a few dependencies that you need to install on your system before you can get it to run. The Messenger requires [Python 3](https://www.python.org/download/releases/3.0/), the [cryptography Python package](https://cryptography.io/en/latest/), and [PyNomicle](https://github.com/alimahouk/nomicle/releases). Ideally, you would want to be running a full Nomicle installation to make the most of xTalk.
 
 The xTalk command line tool requires a C compiler to build from source.
 

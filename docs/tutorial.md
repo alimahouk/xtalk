@@ -18,7 +18,7 @@ A [Nomicle](https://github.com/alimahouk/nomicle)-powered, inter-app messaging s
 
 2. Assuming Python 3 is now running in your Command Prompt window, make sure the displayed Python version number is of the form 3.x or 3.x.x (where "x" can be any number) and that the [cryptography Python package](https://cryptography.io/en/latest/) is installed by following the instructions on the project's website. You may then quit Python by typing "quit()" and pressing the Return key.
 
-3. [Download](https://github.com/noraco/xp002/releases) and [set up](https://github.com/noraco/xp002/blob/main/docs/tutorial.md#windows) Nomicle on your PC.
+3. [Download](https://github.com/alimahouk/nomicle/releases) and [set up](https://github.com/alimahouk/nomicle/blob/main/docs/tutorial.md#windows) Nomicle on your PC.
 
 4. [Download the xTalk Complete Bundle for Windows](https://github.com/alimahouk/xtalk/releases) and extract it into a folder called `xTalk`. The final folder structure should look something like this:
 
@@ -61,7 +61,7 @@ If at any time you decide you don't want xTalk to start up with your PC, follow 
 
 2. Assuming Python 3 is now running in your Terminal window, make sure the displayed Python version number is of the form 3.x or 3.x.x (where "x" can be any number) and that the [cryptography Python package](https://cryptography.io/en/latest/) is installed by following the instructions on the project's website. You may then quit Python by typing "quit()" and pressing the Return key.
 
-3. [Download](https://github.com/noraco/xp002/releases) and [set up](https://github.com/noraco/xp002/blob/main/docs/tutorial.md#macos) Nomicle on your Mac.
+3. [Download](https://github.com/alimahouk/nomicle/releases) and [set up](https://github.com/alimahouk/nomicle/blob/main/docs/tutorial.md#macos) Nomicle on your Mac.
 
 4. [Download the xTalk Complete Bundle for macOS/Linux](https://github.com/alimahouk/xtalk/releases) and extract it into a directory called `xTalk`. The final folder structure should look something like this:
 
@@ -104,7 +104,7 @@ xTalk requires elevated privileges to run on macOS because it writes to system d
 
 2. Assuming Python 3 is now running in your terminal window, make sure the displayed Python version number is of the form 3.x or 3.x.x (where "x" can be any number) and that the [cryptography Python package](https://cryptography.io/en/latest/) is installed by following the instructions on the project's website. You may then quit Python by typing "quit()" and pressing the Return key.
 
-3. [Download](https://github.com/noraco/xp002/releases) and [set up](https://github.com/noraco/xp002/blob/main/docs/tutorial.md#linux) Nomicle on your computer.
+3. [Download](https://github.com/alimahouk/nomicle/releases) and [set up](https://github.com/alimahouk/nomicle/blob/main/docs/tutorial.md#linux) Nomicle on your computer.
 
 4. [Download the xTalk Complete Bundle for macOS/Linux](https://github.com/alimahouk/xtalk/releases) and extract it into a directory called `xTalk`. The final folder structure should look something like this:
 
